@@ -2,7 +2,7 @@
   "name": "m5d2",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "module",  // so we are able to import external modules like cors, multer etc
   "scripts": {
     "start": "node ./src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
