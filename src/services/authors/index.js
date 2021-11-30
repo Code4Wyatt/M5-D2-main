@@ -1,8 +1,8 @@
 import express from "express";
 
-import fs from "fs";
+import fs from "fs"; // File System
 
-import uniqid from "uniqid";
+import uniqid from "uniqid"; // For creating unique id's
 
 import path, { dirname } from "path";
 
